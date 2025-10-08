@@ -176,7 +176,7 @@ python desc.py video.mp4.pkz
 ## ⚠️ Limitations
 
 - **Maximum NF**: 255 frequency nodes (up to 256 unique bytes)
-- **Very small files**: May increase in size due to tree overhead
+- **With Very small files**: The file may increase in size due to tree overhead
 - **Already compressed files**: Formats like `.zip`, `.jpg`, `.mp3` do not benefit significantly
 
 ## 🐛 Debugging
@@ -195,14 +195,7 @@ To get less output, you can comment out the `print()` lines in the code.
 - [Huffman Coding - Wikipedia](https://en.wikipedia.org/wiki/Huffman_coding)
 - Huffman, D. A. (1952). "A Method for the Construction of Minimum-Redundancy Codes"
 
-## 👤 Author
-
-Project developed as part of the Algorithms course.
-
 ## 📄 License
 
 This project is open source and available for educational purposes.
 
----
-
-**Questions or suggestions?** Feel free to open an issue or contribute to the project.
